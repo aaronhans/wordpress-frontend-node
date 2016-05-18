@@ -1,0 +1,22 @@
+<div id="mainCont" class="mt-0">
+  <div id="navcontent" class="js-insert-menu">
+    <a id="myZip" class="js-menu" href="#" data-href="/account/my_ziprealty">
+      <svg>
+        <rect id="Rectangle-21" x="0" y="0" width="20.015444" height="1.5"></rect>
+        <rect id="Rectangle-21" x="0" y="7" width="20.015444" height="1.5"></rect>
+        <rect id="Rectangle-21" x="0" y="14" width="20.015444" height="1.5"></rect>
+      </svg>
+    </a>
+      <div id="homePageLogo">
+      <a title="ZipRealty" href="/index.jsp">
+          <img src="https://images.static-ziprealty.com/z/20160504200104/images/platform/ziprealty/mobile/logo.svg" alt="ZipRealty" />
+        </a>
+      </div>
+
+      {{#each posts}}
+       <h1>{{title.rendered}}</h1>
+       <div class="postBody">{{{content.rendered}}}</div>
+     {{/each}}
+
+  </div>
+</div>

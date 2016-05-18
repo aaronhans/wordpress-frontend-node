@@ -1,0 +1,26 @@
+{
+  "name": "wordpress-frontend-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronhans/wordpress-frontend-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronhans/wordpress-frontend-node/issues"
+  },
+  "homepage": "https://github.com/aaronhans/wordpress-frontend-node#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "pm2": "^1.1.3",
+    "request": "^2.72.0"
+  }
+}
